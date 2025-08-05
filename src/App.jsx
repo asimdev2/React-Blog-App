@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import Create from "./components/Create";
 import View from "./components/View";
 
-import { Routes, Route, NavLink, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import AdminLayout from "./components/admin/AdminLayout";
 import Layout from "./components/main/Layout";
 import AdminView from "./components/admin/AdminView";
