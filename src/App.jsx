@@ -29,7 +29,7 @@ export default function App() {
           {/* public */}
           {/* protected */}
 
-          <Route path="/" element={<AdminLayout></AdminLayout>}>
+          <Route path="admin" element={<AdminLayout></AdminLayout>}>
             <Route index element={<AdminHome />} />
             <Route path="viewAdmin" element={<AdminView />} />
             <Route path="createAdmin" element={<AdminCreate />} />
