@@ -34,12 +34,10 @@ export default function App() {
           {/* public */}
           {/* protected */}
 
-          <Route element={<Authentication />}>
-            <Route path="admin" element={<AdminLayout></AdminLayout>}>
-              <Route index element={<AdminHome />} />
-              <Route path="viewAdmin" element={<AdminView />} />
-              <Route path="createAdmin" element={<AdminCreate />} />
-            </Route>
+          <Route path="admin" element={<AdminLayout></AdminLayout>}>
+            <Route index element={<AdminHome />} />
+            <Route path="viewAdmin" element={<AdminView />} />
+            <Route path="createAdmin" element={<AdminCreate />} />
           </Route>
 
           {/* protected */}
