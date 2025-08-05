@@ -9,8 +9,6 @@ import AdminLayout from "./components/admin/AdminLayout";
 import Layout from "./components/main/Layout";
 import AdminView from "./components/admin/AdminView";
 import AdminHome from "./components/admin/AdminHome";
-
-import AdminCreate from "./components/admin/AdminCreate";
 import Edit from "./components/Edit";
 export default function App() {
   return (
@@ -32,7 +30,6 @@ export default function App() {
           <Route path="admin" element={<AdminLayout></AdminLayout>}>
             <Route index element={<AdminHome />} />
             <Route path="viewAdmin" element={<AdminView />} />
-            <Route path="createAdmin" element={<AdminCreate />} />
           </Route>
 
           {/* protected */}
