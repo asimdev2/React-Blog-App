@@ -1,20 +1,15 @@
 import React from "react";
-import Nav from "./components/Nav";
+
 import Home from "./components/Home";
 import Create from "./components/Create";
 import View from "./components/View";
-import Footer from "./components/Footer";
-import Card from "./components/Card";
+
 import { Routes, Route, NavLink, Navigate } from "react-router-dom";
-import CreateFile from "./components/CreateFile";
 import AdminLayout from "./components/admin/AdminLayout";
 import Layout from "./components/main/Layout";
 import AdminView from "./components/admin/AdminView";
 import AdminHome from "./components/admin/AdminHome";
-import useAuth from "./Hooks/useAuth";
-import Authentication from "./components/Authentication";
-import Login from "./components/Login";
-import CartContext from "./context/CartContext";
+
 import AdminCreate from "./components/admin/AdminCreate";
 import Edit from "./components/Edit";
 export default function App() {
@@ -24,7 +19,7 @@ export default function App() {
         {/* <NavLink to={'/createBlog'} className={ ({isActive,isPending})=>( isActive?'bg-primary text-light' :'')   } >Home</NavLink> */}
         <Routes>
           {/* public */}
-          <Route path="login" element={<Login />}></Route>
+
           <Route path={"/"} element={<Layout />}>
             <Route index element={<Home />}></Route>
             <Route path={"createBlog"} element={<Create />}></Route>
