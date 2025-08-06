@@ -29,7 +29,7 @@ A fully responsive **Blog Application** built with **React** and **Bootstrap**, 
 
 ---
 
-Acknowledgments
+Acknowledgments:
 This project helped me strengthen my skills in React, routing, and building responsive UIs.
 
 Feel free to fork, contribute, or give feedback!
