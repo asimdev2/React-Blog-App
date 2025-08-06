@@ -11,7 +11,7 @@ function Create() {
 
   async function postBlog(e) {
     e.preventDefault();
-    await fetch("http://localhost:3000/blogs", {
+    await fetch("https://6892fe83c49d24bce868ff5e.mockapi.io/Blogs", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),

@@ -10,9 +10,12 @@ export default function View() {
   useEffect(function () {
     (async () => {
       try {
-        let response = await fetch(`http://localhost:3000/blogs/${id}`, {
-          method: "GET",
-        });
+        let response = await fetch(
+          `https://6892fe83c49d24bce868ff5e.mockapi.io/Blogs/${id}`,
+          {
+            method: "GET",
+          }
+        );
         if (!response.ok) {
           throw `error while requesting ${response.status}`;
         }

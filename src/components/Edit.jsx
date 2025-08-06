@@ -13,9 +13,12 @@ const Edit = () => {
   useEffect(() => {
     async function fetchData() {
       try {
-        let response = await fetch(`http://localhost:3000/blogs/${id}`, {
-          method: "GET",
-        });
+        let response = await fetch(
+          `https://6892fe83c49d24bce868ff5e.mockapi.io/Blogs/${id}`,
+          {
+            method: "GET",
+          }
+        );
 
         if (!response.ok) {
           throw `error while requesting ${response.status}`;
@@ -37,7 +40,7 @@ const Edit = () => {
   async function handleChange(e) {
     e.preventDefault();
 
-    await fetch(`http://localhost:3000/blogs/${id}`, {
+    await fetch(`https://6892fe83c49d24bce868ff5e.mockapi.io/Blogs/${id}`, {
       method: "PUT",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ title, author, description }),

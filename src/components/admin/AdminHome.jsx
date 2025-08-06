@@ -6,9 +6,12 @@ export default function AdminHome() {
   useEffect(() => {
     async function blogfetch() {
       try {
-        let response = await fetch("http://localhost:3000/blogs", {
-          method: "GET",
-        });
+        let response = await fetch(
+          "https://6892fe83c49d24bce868ff5e.mockapi.io/Blogs",
+          {
+            method: "GET",
+          }
+        );
         if (!response.ok) {
           throw `New error ${response.status}`;
         }

@@ -8,9 +8,12 @@ export default function Home() {
   useEffect(function () {
     (async () => {
       try {
-        let response = await fetch("http://localhost:3000/blogs", {
-          method: "GET",
-        });
+        let response = await fetch(
+          "https://6892fe83c49d24bce868ff5e.mockapi.io/Blogs",
+          {
+            method: "GET",
+          }
+        );
         if (!response.ok) {
           throw `error while requesting ${response.status}`;
         }
