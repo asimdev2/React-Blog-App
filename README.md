@@ -1,12 +1,41 @@
-# React + Vite
+# 📝 React BlogApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive **Blog Application** built with **React** and **Bootstrap**, where users can create, view, and edit blogs. The app also features an **Admin Panel** implemented to practice **nested routing** using React Router.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [Click here to view the live app] https://react-blog-app-gilt.vercel.app/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Features
+
+- 📝 Create new blog posts
+- 👀 View blog details
+- ✏️ Edit existing blogs
+- ⚙️ Admin Panel (for practicing nested routing)
+- 📱 Fully responsive layout with Bootstrap
+
+---
+
+## 📦 Technologies Used
+
+- **React JS**
+- **React Router Dom**
+  - `useState`, `useEffect`, `useParams`, `useNavigate`
+  - Nested Routing
+- **Bootstrap 5**
+- **JavaScript (ES6+)**
+
+---
+
+Acknowledgments
+This project helped me strengthen my skills in React, routing, and building responsive UIs.
+
+Feel free to fork, contribute, or give feedback!
+
+
+Links:
+GitHub Repo: React-Blog-App
+LinkedIn: www.linkedin.com/in/muhammad-asim-code
+
