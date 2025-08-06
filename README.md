@@ -30,12 +30,13 @@ A fully responsive **Blog Application** built with **React** and **Bootstrap**, 
 ---
 
 Acknowledgments:
+<br>
 This project helped me strengthen my skills in React, routing, and building responsive UIs.
 
 Feel free to fork, contribute, or give feedback!
 
 
 Links:
-GitHub Repo: React-Blog-App
+<br> 
 LinkedIn: www.linkedin.com/in/muhammad-asim-code
 
